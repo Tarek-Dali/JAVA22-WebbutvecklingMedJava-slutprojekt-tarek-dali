@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image: url("../images/weatherBackground.webp");
+}
+
+.divCenter{
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	margin-top: 150px;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.cookiePopup{
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	color:#ff0bff;
+}
+
+#inputAccept{
+	background-color:blue;
+	color:white;
+	font-weight:bold;
+}
+
+#inputAccept:hover{
+	background-color:#000080;
+}
+
+#inputRefuse{
+	background-color:red;
+	color:white;
+	font-weight:bold;
+}
+
+#inputRefuse:hover{
+	background-color: #800000;
+}
+
+.weatherData{
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	margin-top: 50px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #fc4347;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+a{
+	color: #4428e3;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+a:hover{
+	color: #910000;
+}
